@@ -10,7 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 
-@CrossOrigin("http://localhost:3000") //allowing client application to consume the backed
+@CrossOrigin(origins = "https://list-employees-frontand.vercel.app")
 @RestController
 @RequestMapping("/employees")
 @RequiredArgsConstructor
